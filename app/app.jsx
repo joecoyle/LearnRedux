@@ -9,8 +9,9 @@ $(document).foundation();
 //app css
 require('style!css!sass!AppStyles');
 
-ReactDOM.render(
-  <p>React Boilerplate 3</p>,
-  document.getElementById('app')
-);
+// ReactDOM.render(
+//   <p>React Boilerplate 3</p>,
+//   document.getElementById('app')
+// );
+// require('./redux-todo-example.jsx');
 require('./redux-example.jsx');
